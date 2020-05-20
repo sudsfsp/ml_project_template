@@ -147,3 +147,5 @@ output/
 .h5
 .pth
 
+# idea file
+.idea/
