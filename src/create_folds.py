@@ -1,2 +1,2 @@
-print("hello")
-print("i am good")
+def subtract(a,b):
+    return(a-b)
