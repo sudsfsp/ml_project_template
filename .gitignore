@@ -139,7 +139,7 @@ cython_debug/
 
 # input data and models
 input/
-output/
+models/
 
 #data files
 .csv
@@ -149,3 +149,4 @@ output/
 
 # idea file
 .idea/
+
