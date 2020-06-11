@@ -1,11 +1,10 @@
 import os
+import joblib
 import pandas as pd
-from sklearn import ensemble
 from sklearn import metrics
 from sklearn import preprocessing
-from . import dispatcher
-import joblib
 
+from . import dispatcher
 
 TRAINING_DATA = os.environ.get("TRAINING_DATA")
 FOLD = int(os.environ.get("FOLD"))
